@@ -1,0 +1,16 @@
+name: DynamoDB-utils-template
+description: The Basics to create an DynamoDB table
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
+    global: true
+  - label: Table name
+    type: text
+    name: table_name
+  - label: Table Primary Key
+    type: text
+    name: table_primary_key
